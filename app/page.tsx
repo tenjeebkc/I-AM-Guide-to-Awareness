@@ -1,69 +1,117 @@
-import Image from "next/image";
+import Link from "next/link";
+import { SiteFooter } from "./components/site-footer";
+import { SiteNav } from "./components/site-nav";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="bg-[#f5f2ec] text-[#292724]">
+      <SiteNav />
+
+      <section className="mx-auto flex min-h-[80vh] max-w-6xl items-center px-6 py-20 sm:px-10 sm:py-20 lg:px-16">
+        <div className="max-w-3xl">
+          <p className="mb-5 text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
+            A simple way to look at your thoughts
           </p>
+
+          <h1 className="max-w-3xl text-4xl font-medium leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+            A thought can appear without becoming who you are.
+          </h1>
+
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#292724]/65 sm:text-xl">
+            Thoughts happen all the time. Some are helpful. Some are negative.
+            Some appear without warning. You can notice a thought without
+            believing it, following it, or trying to get rid of it.
+          </p>
+
+          <div className="mt-7">
+            <Link
+              href="/learn"
+              className="inline-flex items-center rounded-full bg-[#292724] px-6 py-3 text-sm font-medium text-[#f5f2ec] transition-colors hover:bg-[#403c37]"
+            >
+              Understand this
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section className="border-t border-[#292724]/10">
+        <div className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
+          <div className="max-w-2xl">
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
+              Try this
+            </p>
+
+            <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
+              Try this right now.
+            </h2>
+
+            <div className="mt-6 space-y-4 text-lg leading-8 text-[#292724]/65">
+              <p>Notice what you&apos;re thinking right now.</p>
+
+              <p>Don&apos;t change it.</p>
+
+              <p>Don&apos;t push it away.</p>
+
+              <p>Just notice that a thought is here.</p>
+
+              <p className="pt-2 font-medium text-[#292724]">
+                You noticed the thought.
+              </p>
+
+              <p>
+                That simple ability to notice is what we mean by{" "}
+                <span className="font-medium text-[#292724]">Awareness</span>.
+              </p>
+            </div>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="border-t border-[#292724]/10">
+        <div className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
+          <div className="max-w-2xl">
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
+              I AM
+            </p>
+
+            <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
+              And what does “I AM” mean?
+            </h2>
+
+            <div className="mt-6 space-y-5 text-lg leading-8 text-[#292724]/65">
+              <p>
+                Before “I am happy,” “I am worried,” or “I am a student,”
+                there is simply:
+              </p>
+
+              <p className="text-4xl font-medium tracking-tight text-[#292724] sm:text-4xl">
+                I AM.
+              </p>
+
+              <p>
+                It is a simple way of pointing to the fact that you are here
+                and aware.
+              </p>
+
+              <p>
+                You don&apos;t have to turn it into a belief. Just notice your own
+                experience.
+              </p>
+            </div>
+
+            <div className="mt-7">
+              <Link
+                href="/learn"
+                className="text-sm font-medium text-[#292724] underline decoration-[#292724]/25 underline-offset-4 transition-colors hover:decoration-[#292724]/60"
+              >
+                Understand more
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <SiteFooter />
+    </main>
   );
 }

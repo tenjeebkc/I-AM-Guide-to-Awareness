@@ -1,0 +1,135 @@
+import { SiteFooter } from "../components/site-footer";
+import { SiteNav } from "../components/site-nav";
+
+const questionGroups = [
+  {
+    title: "Thoughts",
+    questions: [
+      {
+        question: "Am I my thoughts?",
+        answer:
+          "You have thoughts, but you can also notice them. Having a thought like \"I'm not good enough\" doesn't mean you are that thought.",
+      },
+      {
+        question: "What if I believe a thought?",
+        answer:
+          "That's okay. You don't need to immediately fight the thought or force yourself to think differently. Just notice that you're having it. With time, you may find that it passes on its own.",
+      },
+      {
+        question: "What should I do with negative thoughts?",
+        answer:
+          "You don't have to fight every negative thought. Notice it without automatically following it or treating it as a fact.",
+      },
+      {
+        question: "Do I need to stop thinking?",
+        answer:
+          "No. Thinking is normal. The point isn't to create an empty mind but to notice thoughts when they appear.",
+      },
+    ],
+  },
+  {
+    title: "Awareness",
+    questions: [
+      {
+        question: "What is Awareness?",
+        answer:
+          "Here, Awareness simply means the ability to notice what is happening — thoughts, feelings, sensations, sounds, and what you see.",
+      },
+      {
+        question: "How do I know I'm aware?",
+        answer:
+          "Right now, you're aware of these words. You may also notice sounds, sensations, or thoughts while reading them. You don't need to create that ability.",
+      },
+      {
+        question: "Do I need to stay aware all the time?",
+        answer:
+          "No. Sometimes you'll get caught up in your thoughts. That's okay. The moment you notice, you're already aware.",
+      },
+    ],
+  },
+  {
+    title: "I AM and everyday life",
+    questions: [
+      {
+        question: "What does I AM mean?",
+        answer:
+          "“I AM” points to the simple fact that you are here, before adding descriptions such as “I am tired” or “I am a student.”",
+      },
+      {
+        question: "Why does I AM matter?",
+        answer:
+          "It can help you notice the difference between what is happening and the descriptions you put on yourself. You can have any thought or feeling without making them your identity.",
+      },
+      {
+        question: "What about difficult emotions?",
+        answer:
+          "You can notice an emotion without immediately trying to get rid of it. Feeling something doesn't mean you have to act on it.",
+      },
+      {
+        question: "Do I have to practice this all day?",
+        answer:
+          "No. There is no need to do it constantly. Start by noticing when you remember. Even a few seconds is enough.",
+      },
+    ],
+  },
+];
+
+export default function QuestionsPage() {
+  return (
+    <main className="bg-[#f5f2ec] text-[#292724]">
+      <SiteNav />
+
+      <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
+        <div className="max-w-3xl">
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
+            Questions
+          </p>
+
+          <h1 className="mt-4 text-4xl font-medium leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
+            Questions you may have.
+          </h1>
+
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#292724]/65 sm:text-xl">
+            Simple answers to some questions that naturally come up.
+          </p>
+        </div>
+
+        <div className="mt-16 max-w-4xl space-y-12">
+          {questionGroups.map((group) => (
+            <section key={group.title}>
+              <h2 className="mb-4 text-2xl font-medium tracking-tight">
+                {group.title}
+              </h2>
+
+              <div className="border-t border-[#292724]/10">
+                {group.questions.map((item) => (
+                  <details
+                    key={item.question}
+                    className="group border-b border-[#292724]/10"
+                  >
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-4 text-left text-base font-medium marker:hidden sm:py-5">
+                      <span>{item.question}</span>
+
+                      <span
+                        aria-hidden="true"
+                        className="text-xl font-normal text-[#292724]/35 transition-transform duration-200 group-open:rotate-45"
+                      >
+                        +
+                      </span>
+                    </summary>
+
+                    <div className="pb-5 pr-8 text-base leading-7 text-[#292724]/65">
+                      <p>{item.answer}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </section>
+
+      <SiteFooter />
+    </main>
+  );
+}
