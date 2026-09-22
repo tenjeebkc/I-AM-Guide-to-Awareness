@@ -115,30 +115,7 @@ export default function LearnPage() {
 
       <section className="border-t border-[#292724]/10">
         <div className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
-          <div className="max-w-3xl">
-            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
-              When you get caught up
-            </p>
-
-            <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-              You will forget.
-            </h2>
-
-            <div className="mt-6 space-y-4 text-lg leading-8 text-[#292724]/65">
-              <p>
-                You may believe a thought, follow it, or get completely lost in
-                it. That&apos;s normal.
-              </p>
-
-              <p>When you notice it, simply notice again.</p>
-
-              <p className="pt-2 text-xl font-medium leading-5 text-[#292724] sm:text-xl">
-                You don&apos;t have to start over.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-12 border-t border-[#292724]/10 pt-8">
+          <div>
             <div className="max-w-2xl">
               <h2 className="text-2xl font-medium tracking-tight">
                 Still have questions?
