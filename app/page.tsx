@@ -38,29 +38,25 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
           <div className="max-w-2xl">
             <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#292724]/50">
-              Try this
+              Remember this
             </p>
 
             <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-              Try this right now.
+              When a thought appears
             </h2>
 
             <div className="mt-6 space-y-4 text-lg leading-8 text-[#292724]/65">
-              <p>Notice what you&apos;re thinking right now.</p>
+              <p>A thought may come and go on its own.</p>
 
-              <p>Don&apos;t change it.</p>
-
-              <p>Don&apos;t push it away.</p>
-
-              <p>Just notice that a thought is here.</p>
+              <p>You don't have to change it, follow it, or push it away.</p>
 
               <p className="pt-2 font-medium text-[#292724]">
-                You noticed the thought.
+                You can simply let it be.
               </p>
 
               <p>
-                That simple ability to notice is what we mean by{" "}
-                <span className="font-medium text-[#292724]">Awareness</span>.
+                Sometimes you may notice that you're caught up in a thought. That's okay. You don't
+                have to do anything about that either.
               </p>
             </div>
           </div>

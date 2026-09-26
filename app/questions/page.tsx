@@ -13,12 +13,12 @@ const questionGroups = [
       {
         question: "What if I believe a thought?",
         answer:
-          "That's okay. You don't need to immediately fight the thought or force yourself to think differently. Just notice that you're having it. With time, you may find that it passes on its own.",
+          "That's okay. You don't have to fight the thought or force yourself to think differently. You can let it be and see that it's simply a thought.",
       },
       {
         question: "What should I do with negative thoughts?",
         answer:
-          "You don't have to fight every negative thought. Notice it without automatically following it or treating it as a fact.",
+          "You don't have to fight every negative thought. You can let it be there without automatically believing it or acting on it.",
       },
       {
         question: "Do I need to stop thinking?",
@@ -43,7 +43,7 @@ const questionGroups = [
       {
         question: "Do I need to stay aware all the time?",
         answer:
-          "No. Sometimes you'll get caught up in your thoughts. That's okay. The moment you notice, you're already aware.",
+          "No. Sometimes you'll get caught up in your thoughts. That's normal. You don't have to keep watching your thoughts. When you happen to notice, you're already aware.",
       },
     ],
   },

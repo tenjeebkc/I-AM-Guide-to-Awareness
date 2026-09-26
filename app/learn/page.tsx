@@ -14,11 +14,10 @@ const sections = [
   },
   {
     number: "02",
-    title: "You can notice a thought.",
+    title: "A thought can be observed.",
     paragraphs: [
-      'When a thought appears, you can recognize it: "I\'m having this thought."',
-      "You don't have to change it, argue with it, or push it away.",
-      "Simply notice it.",
+      "When a thought appears, you don't have to change it, argue with it, or push it away.",
+      "You can simply observe the thought without doing anything about it.",
     ],
   },
   {
@@ -27,7 +26,7 @@ const sections = [
     paragraphs: [
       'Your mind can say, "I\'m not good enough."',
       "Having that thought doesn't make it true.",
-      "You can notice the thought without accepting it.",
+      "You can just simply observe the thought without accepting it.",
     ],
     emphasis: "You are not every thought that appears in your mind.",
     afterEmphasis: "You can have a thought without having to believe it.",
@@ -45,11 +44,11 @@ const sections = [
     number: "05",
     title: "And I AM?",
     paragraphs: [
-      'Before all the descriptions you put after "I am" — "I am tired," "I am happy," "I am a student" — there is simply:',
+      'Before all the descriptions you put after "I am" — "I am tired," "I am worried," "I am a student" — there is simply:',
     ],
-    emphasis: "I AM.",
+    emphasis: '"I AM" — the simple fact that you are here',
     afterEmphasis:
-      "You don't have to turn this into a belief. Just notice that you are here and aware.",
+      "You don't have to hold onto this idea or repeat it to yourself. Just understand what it points to.",
   },
 ];
 
