@@ -4,7 +4,7 @@ import { SiteNav } from "./components/site-nav";
 
 export default function HomePage() {
   return (
-    <main className="bg-[#f5f2ec] text-[#292724]">
+    <main className="text-[#292724]">
       <SiteNav />
 
       <section className="mx-auto flex min-h-[80vh] max-w-6xl items-center px-6 py-20 sm:px-10 sm:py-20 lg:px-16">

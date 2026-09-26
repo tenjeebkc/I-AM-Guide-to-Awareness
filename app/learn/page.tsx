@@ -54,7 +54,7 @@ const sections = [
 
 export default function LearnPage() {
   return (
-    <main className="bg-[#f5f2ec] text-[#292724]">
+    <main className="text-[#292724]">
       <SiteNav />
 
       <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20 lg:px-16">
