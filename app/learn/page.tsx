@@ -17,7 +17,7 @@ const sections = [
     title: "A thought can be observed.",
     paragraphs: [
       "When a thought appears, you don't have to change it, argue with it, or push it away.",
-      "You can simply observe the thought without doing anything about it.",
+      "You can simply observe the thought and let it be.",
     ],
   },
   {
@@ -26,7 +26,7 @@ const sections = [
     paragraphs: [
       'Your mind can say, "I\'m not good enough."',
       "Having that thought doesn't make it true.",
-      "You can just simply observe the thought without accepting it.",
+      "You can observe the thought without accepting it as true.",
     ],
     emphasis: "You are not every thought that appears in your mind.",
     afterEmphasis: "You can have a thought without having to believe it.",
@@ -35,9 +35,9 @@ const sections = [
     number: "04",
     title: "This is Awareness.",
     paragraphs: [
-      "You can notice thoughts.",
-      "You can notice sounds, sensations, feelings, and what you see.",
-      "The fact that you can notice what is happening is what we mean by Awareness.",
+      "Thoughts, feelings, sounds, and everything you see can be experienced.",
+      "You don't have to do anything with them.",
+      "The simple fact that you can experience them is what this website calls Awareness.",
     ],
   },
   {

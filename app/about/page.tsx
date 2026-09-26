@@ -43,7 +43,7 @@ export default function AboutPage() {
             <p>This isn&apos;t a belief system you need to accept.</p>
 
             <p>
-              Read the ideas. Notice your own experience. See what makes sense
+              Read the ideas. Look at your own experience. See what makes sense
               to you.
             </p>
           </div>

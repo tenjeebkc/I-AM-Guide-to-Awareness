@@ -8,7 +8,7 @@ const questionGroups = [
       {
         question: "Am I my thoughts?",
         answer:
-          "You have thoughts, but you can also notice them. Having a thought like \"I'm not good enough\" doesn't mean you are that thought.",
+          "You have thoughts, but you don't have to become them. Having a thought like \"I'm not good enough\" doesn't mean you are that thought.",
       },
       {
         question: "What if I believe a thought?",
@@ -23,7 +23,7 @@ const questionGroups = [
       {
         question: "Do I need to stop thinking?",
         answer:
-          "No. Thinking is normal. The point isn't to create an empty mind but to notice thoughts when they appear.",
+          "No. Thinking is normal. The point isn't to create an empty mind or control every thought that appears.",
       },
     ],
   },
@@ -33,12 +33,12 @@ const questionGroups = [
       {
         question: "What is Awareness?",
         answer:
-          "Here, Awareness simply means the ability to notice what is happening — thoughts, feelings, sensations, sounds, and what you see.",
+          "Here, Awareness simply means being aware of what is happening — thoughts, feelings, sensations, sounds, and what you see.",
       },
       {
         question: "How do I know I'm aware?",
         answer:
-          "Right now, you're aware of these words. You may also notice sounds, sensations, or thoughts while reading them. You don't need to create that ability.",
+          "Right now, you're aware of these words. You may also hear sounds, feel sensations, or have thoughts while reading them. You don't need to create that ability.",
       },
       {
         question: "Do I need to stay aware all the time?",
@@ -58,17 +58,17 @@ const questionGroups = [
       {
         question: "Why does I AM matter?",
         answer:
-          "It can help you notice the difference between what is happening and the descriptions you put on yourself. You can have any thought or feeling without making them your identity.",
+          "It can help you see the difference between what is happening and the descriptions you put on yourself. You can have a thought or feeling without making it your identity.",
       },
       {
         question: "What about difficult emotions?",
         answer:
-          "You can notice an emotion without immediately trying to get rid of it. Feeling something doesn't mean you have to act on it.",
+          "You don't have to immediately get rid of a difficult emotion. You can let it be there without having to act on it.",
       },
       {
         question: "Do I have to practice this all day?",
         answer:
-          "No. There is no need to do it constantly. Start by noticing when you remember. Even a few seconds is enough.",
+          "No. You don't have to practice this all day. You don't have to keep watching your thoughts. There's nothing you need to maintain.",
       },
     ],
   },

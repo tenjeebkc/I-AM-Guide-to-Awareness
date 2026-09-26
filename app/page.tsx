@@ -19,7 +19,7 @@ export default function HomePage() {
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-[#292724]/65 sm:text-xl">
             Thoughts happen all the time. Some are helpful. Some are negative.
-            Some appear without warning. You can notice a thought without
+            Some appear without warning. A thought can appear without you having to
             believing it, following it, or trying to get rid of it.
           </p>
 
@@ -90,8 +90,8 @@ export default function HomePage() {
               </p>
 
               <p>
-                You don&apos;t have to turn it into a belief. Just notice your own
-                experience.
+                You don&apos;t have to turn it into a belief. It&apos;s simply something you can 
+                look at for yourself.
               </p>
             </div>
 
