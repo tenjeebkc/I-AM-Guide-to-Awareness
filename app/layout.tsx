@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       data-scroll-behavior="smooth"
       className={`${dmSans.variable} ${cormorant.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#f4e3c7] text-[#292724]">
+      <body className="min-h-full flex flex-col">
         {children}
       </body>
     </html>
