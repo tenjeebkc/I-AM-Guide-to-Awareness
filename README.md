@@ -1,4 +1,4 @@
-# I AM - A Guide to Awareness
+# I AM - A Simple Guide to Awareness
 
 A simple educational website about thoughts, Awareness, and the experience of being present.
 
